@@ -7,6 +7,6 @@
 //
 
 import Foundation
-
+let a = "hello hafiz";
 print("Hello, World!")
-
+print(a);

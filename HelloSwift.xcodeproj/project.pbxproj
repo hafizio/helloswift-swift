@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		86E589181B778941000A4FB6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E589171B778941000A4FB6 /* main.swift */; };
+		86ECD3431B8087A3008A3CE3 /* MobileDeveloper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ECD3421B8087A3008A3CE3 /* MobileDeveloper.swift */; };
+		86ECD3451B808858008A3CE3 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ECD3441B808858008A3CE3 /* Programmer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		86E589141B778941000A4FB6 /* HelloSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E589171B778941000A4FB6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		86ECD3421B8087A3008A3CE3 /* MobileDeveloper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileDeveloper.swift; sourceTree = "<group>"; };
+		86ECD3441B808858008A3CE3 /* Programmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				86E589171B778941000A4FB6 /* main.swift */,
+				86ECD3421B8087A3008A3CE3 /* MobileDeveloper.swift */,
+				86ECD3441B808858008A3CE3 /* Programmer.swift */,
 			);
 			path = HelloSwift;
 			sourceTree = "<group>";
@@ -118,6 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ECD3431B8087A3008A3CE3 /* MobileDeveloper.swift in Sources */,
+				86ECD3451B808858008A3CE3 /* Programmer.swift in Sources */,
 				86E589181B778941000A4FB6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +244,7 @@
 				86E5891D1B778941000A4FB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
